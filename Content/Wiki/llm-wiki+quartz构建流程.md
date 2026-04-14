@@ -16,12 +16,13 @@
 ```
 Obsidian-math/
 ├── Content/                    # 笔记源文件 (Obsidian编辑)
-│   ├── Wiki/                   # Wiki概念笔记
-│   │   ├── concepts/           # 概念定义
-│   │   └── theorems/           # 定理
-│   └── 线性代数/               # 课程笔记
-│       ├── notes/              # 各节笔记
-│       └── canvas/             # Obsidian Canvas
+│   ├── Wiki/                   # 跨课程通用概念/定理 (通过双向链接复用)
+│   │   ├── concepts/           # 概念定义 (如: 矩阵、随机变量)
+│   │   └── theorems/           # 通用定理
+│   ├── 线性代数/               # 课程笔记 (公式、例题、作业)
+│   │   ├── notes/              # 各节笔记
+│   │   └── canvas/             # Obsidian Canvas
+│   └── 概率论/                 # 课程笔记 (公式、例题、作业) ← 可扩展
 ├── quartz/                     # Quartz静态网站配置
 │   ├── quartz.config.ts        # 核心配置
 │   ├── quartz.layout.ts        # 布局配置
@@ -31,6 +32,11 @@ Obsidian-math/
 ├── public/                     # 构建输出副本 (已提交到GitHub)
 └── .gitignore
 ```
+
+> **分类原则**：
+> - `Wiki/`：放跨课程的抽象概念和定理（如"矩阵"的定义可以链接到线性代数和概率论）
+> - 各课程文件夹：放该课程专属的笔记、例题、作业、Canvas 等
+> - 新增课程（如"概率论"）时，只需在 Content/ 下创建新文件夹，Obsidian 双向链接会自动关联 Wiki 中的概念
 
 ---
 
