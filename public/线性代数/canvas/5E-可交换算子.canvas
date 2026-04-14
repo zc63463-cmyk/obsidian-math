@@ -1,0 +1,210 @@
+{
+    "nodes":  [
+                  {
+                      "id":  "grp001",
+                      "type":  "group",
+                      "x":  -500,
+                      "y":  -400,
+                      "width":  1700,
+                      "height":  900,
+                      "label":  "5E 可交换算子 — 知识图谱",
+                      "color":  "4"
+                  },
+                  {
+                      "id":  "nd010",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  -300,
+                      "width":  260,
+                      "height":  120,
+                      "color":  "2",
+                      "text":  "## 可交换\n**Def 5.71**\n- ST = TS\n- 对角矩阵必可交换\n- 随机矩阵仅0.3%可交换"
+                  },
+                  {
+                      "id":  "nd011",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  -100,
+                      "width":  260,
+                      "height":  120,
+                      "color":  "5",
+                      "text":  "## 可交换矩阵\n**Prop 5.74**\n- S,T可交换 ⟺\n  矩阵可交换\n- 依赖同一基"
+                  },
+                  {
+                      "id":  "nd012",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  100,
+                      "width":  260,
+                      "height":  120,
+                      "color":  "3",
+                      "text":  "## 特征空间不变\n**Lem 5.75**\n- ST=TS ⟹\n  S保持E(λ,T)不变\n- 证明核心：交换算子顺序"
+                  },
+                  {
+                      "id":  "nd020",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -300,
+                      "width":  280,
+                      "height":  140,
+                      "color":  "1",
+                      "text":  "## 同时对角化\n**Thm 5.76**\n- 充要条件\n- 可对角化+可交换\n- ⟺ 同时对角化\n- 先分解再逐块处理"
+                  },
+                  {
+                      "id":  "nd021",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -80,
+                      "width":  280,
+                      "height":  120,
+                      "color":  "2",
+                      "text":  "## 公共特征向量\n**Thm 5.78**\n- 复空间上恒成立\n- 在S的特征空间内\n  找T的特征向量\n- 推广至任意多个算子"
+                  },
+                  {
+                      "id":  "nd022",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  120,
+                      "width":  280,
+                      "height":  120,
+                      "color":  "6",
+                      "text":  "## 同时上三角化\n**Thm 5.80**\n- 复空间+可交换\n- 投影算子+归纳法\n- Schur定理的双人版"
+                  },
+                  {
+                      "id":  "nd023",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  310,
+                      "width":  280,
+                      "height":  120,
+                      "color":  "5",
+                      "text":  "## 和与积的特征值\n**Thm 5.81**\n- λ(S+T) = λ(S)+λ(T)\n- λ(ST) = λ(S)·λ(T)\n- 仅可交换时成立"
+                  },
+                  {
+                      "id":  "nd030",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  -300,
+                      "width":  280,
+                      "height":  120,
+                      "color":  "3",
+                      "text":  "## 偏微分算子\n**Ex 5.72 / 5.79**\n- D_w和D_z可交换\n- 混合偏导与Clairaut定理\n- 公共特征向量=常值函数"
+                  },
+                  {
+                      "id":  "nd031",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  -100,
+                      "width":  280,
+                      "height":  120,
+                      "color":  "1",
+                      "text":  "## 量子力学意义\n- 可观察量=自伴算子\n- 可交换=可同时精确测量\n- 不确定性原理的逆命题"
+                  },
+                  {
+                      "id":  "nd040",
+                      "type":  "file",
+                      "x":  400,
+                      "y":  100,
+                      "width":  280,
+                      "height":  60,
+                      "color":  "5",
+                      "file": "线性代数/notes/5E 可交换算子.md"
+                  },
+                  {
+                      "id":  "nd041",
+                      "type":  "link",
+                      "x":  400,
+                      "y":  220,
+                      "width":  280,
+                      "height":  60,
+                      "color":  "4",
+                      "url":  "obsidian://open?vault=Obsidian-math\u0026file=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%2Fnotes%2F6A%20%E5%86%85%E7%A7%AF%E5%92%8C%E8%8C%83%E6%95%B0",
+                      "title":  "6A 内积和范数"
+                  }
+              ],
+    "edges":  [
+                  {
+                      "id":  "e001",
+                      "fromNode":  "nd010",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd011",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e002",
+                      "fromNode":  "nd011",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd012",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e003",
+                      "fromNode":  "nd012",
+                      "fromSide":  "right",
+                      "toNode":  "nd020",
+                      "toSide":  "left",
+                      "label":  "基础"
+                  },
+                  {
+                      "id":  "e004",
+                      "fromNode":  "nd020",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd021",
+                      "toSide":  "top",
+                      "label":  "推论"
+                  },
+                  {
+                      "id":  "e005",
+                      "fromNode":  "nd021",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd022",
+                      "toSide":  "top",
+                      "label":  "推广"
+                  },
+                  {
+                      "id":  "e006",
+                      "fromNode":  "nd022",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd023",
+                      "toSide":  "top",
+                      "label":  "应用"
+                  },
+                  {
+                      "id":  "e007",
+                      "fromNode":  "nd010",
+                      "fromSide":  "right",
+                      "toNode":  "nd030",
+                      "toSide":  "left",
+                      "label":  "实例"
+                  },
+                  {
+                      "id":  "e008",
+                      "fromNode":  "nd020",
+                      "fromSide":  "right",
+                      "toNode":  "nd031",
+                      "toSide":  "left",
+                      "label":  "意义"
+                  },
+                  {
+                      "id":  "e009",
+                      "fromNode":  "nd031",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd040",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e010",
+                      "fromNode":  "nd040",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd041",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e011",
+                      "fromNode":  "nd023",
+                      "fromSide":  "right",
+                      "toNode":  "nd040",
+                      "toSide":  "left"
+                  }
+              ]
+}

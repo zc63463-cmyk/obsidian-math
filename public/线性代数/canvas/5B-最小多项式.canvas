@@ -1,0 +1,223 @@
+{
+    "nodes":  [
+                  {
+                      "id":  "grp001",
+                      "type":  "group",
+                      "x":  -500,
+                      "y":  -400,
+                      "width":  1700,
+                      "height":  950,
+                      "label":  "5B 最小多项式 — 知识图谱",
+                      "color":  "4"
+                  },
+                  {
+                      "id":  "nd010",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  -300,
+                      "width":  280,
+                      "height":  160,
+                      "color":  "1",
+                      "text":  "复向量空间特征值存在性\nThm 5.19\n• v Tv T²v 线性相关\n• 利用代数基本定理\n• 有限维是关键"
+                  },
+                  {
+                      "id":  "nd011",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  -50,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "5",
+                      "text":  "无限维反例\nEx 5.20\n• Tp=zp 在 P(C) 上\n• 无特征值\n• 无最小多项式"
+                  },
+                  {
+                      "id":  "nd020",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -300,
+                      "width":  280,
+                      "height":  160,
+                      "color":  "1",
+                      "text":  "最小多项式\nDef 5.24 Thm 5.22\n• 唯一首一多项式\n• p(T) = 0\n• deg p ≤ dim V"
+                  },
+                  {
+                      "id":  "nd021",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -50,
+                      "width":  280,
+                      "height":  140,
+                      "color":  "2",
+                      "text":  "特征值即零点\nThm 5.27\n• λ 是特征值\n• 当且仅当 p(λ) = 0\n• 因式定理+反证法"
+                  },
+                  {
+                      "id":  "nd022",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  180,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "6",
+                      "text":  "q(T)=0 充要条件\nThm 5.29\n• q(T) = 0\n• 当且仅当 p 整除 q\n• 带余除法"
+                  },
+                  {
+                      "id":  "nd023",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  400,
+                      "width":  260,
+                      "height":  120,
+                      "color":  "3",
+                      "text":  "可逆性判定\nThm 5.32\n• T 不可逆\n• 当且仅当常数项为 0\n• p(0) = 0"
+                  },
+                  {
+                      "id":  "nd024",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  580,
+                      "width":  260,
+                      "height":  120,
+                      "color":  "5",
+                      "text":  "受限算子\nThm 5.31\n• T|ᵤ 的最小多项式\n• 整除 T 的最小多项式\n• 遗传性"
+                  },
+                  {
+                      "id":  "nd030",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  -50,
+                      "width":  280,
+                      "height":  140,
+                      "color":  "2",
+                      "text":  "偶数维零空间\nThm 5.33\n• T 无特征值时\n• dim null(T²+I) 为偶数\n• 斜对称矩阵"
+                  },
+                  {
+                      "id":  "nd031",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  180,
+                      "width":  280,
+                      "height":  140,
+                      "color":  "1",
+                      "text":  "奇数维总有特征值\nThm 5.34\n• 奇数维实向量空间\n• 商空间归纳法\n• R 上的特征值保证"
+                  },
+                  {
+                      "id":  "nd032",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  400,
+                      "width":  240,
+                      "height":  120,
+                      "color":  "3",
+                      "text":  "计算方法\n• 线性方程组法\n• 快速向量法\n• 循环向量"
+                  },
+                  {
+                      "id":  "nd040",
+                      "type":  "file",
+                      "x":  400,
+                      "y":  580,
+                      "width":  260,
+                      "height":  60,
+                      "color":  "5",
+                      "file": "线性代数/notes/5B 最小多项式.md"
+                  },
+                  {
+                      "id":  "nd041",
+                      "type":  "link",
+                      "x":  -400,
+                      "y":  580,
+                      "width":  220,
+                      "height":  60,
+                      "color":  "4",
+                      "url":  "obsidian://open?vault=Obsidian-math\u0026file=5C%20%E4%B8%8A%E4%B8%89%E8%A7%92%E7%9F%A9%E9%98%B5"
+                  }
+              ],
+    "edges":  [
+                  {
+                      "id":  "e001",
+                      "fromNode":  "nd010",
+                      "fromSide":  "right",
+                      "toNode":  "nd020",
+                      "toSide":  "left",
+                      "label":  "构造"
+                  },
+                  {
+                      "id":  "e002",
+                      "fromNode":  "nd010",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd011",
+                      "toSide":  "top",
+                      "label":  "反例"
+                  },
+                  {
+                      "id":  "e003",
+                      "fromNode":  "nd020",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd021",
+                      "toSide":  "top",
+                      "label":  "零点"
+                  },
+                  {
+                      "id":  "e004",
+                      "fromNode":  "nd020",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd022",
+                      "toSide":  "top",
+                      "label":  "整除条件"
+                  },
+                  {
+                      "id":  "e005",
+                      "fromNode":  "nd020",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd023",
+                      "toSide":  "top",
+                      "label":  "可逆性"
+                  },
+                  {
+                      "id":  "e006",
+                      "fromNode":  "nd020",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd024",
+                      "toSide":  "top",
+                      "label":  "遗传性"
+                  },
+                  {
+                      "id":  "e007",
+                      "fromNode":  "nd021",
+                      "fromSide":  "right",
+                      "toNode":  "nd030",
+                      "toSide":  "left",
+                      "label":  "实数域"
+                  },
+                  {
+                      "id":  "e008",
+                      "fromNode":  "nd030",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd031",
+                      "toSide":  "top",
+                      "label":  "奇数维"
+                  },
+                  {
+                      "id":  "e009",
+                      "fromNode":  "nd031",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd032",
+                      "toSide":  "top",
+                      "label":  "计算"
+                  },
+                  {
+                      "id":  "e010",
+                      "fromNode":  "nd032",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd040",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e011",
+                      "fromNode":  "nd040",
+                      "fromSide":  "left",
+                      "toNode":  "nd041",
+                      "toSide":  "right",
+                      "label":  "下一节"
+                  }
+              ]
+}

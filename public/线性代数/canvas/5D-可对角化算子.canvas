@@ -1,0 +1,245 @@
+{
+    "nodes":  [
+                  {
+                      "id":  "grp001",
+                      "type":  "group",
+                      "x":  -500,
+                      "y":  -400,
+                      "width":  1700,
+                      "height":  950,
+                      "label":  "5D 可对角化算子 — 知识图谱",
+                      "color":  "4"
+                  },
+                  {
+                      "id":  "nd010",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  -300,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "2",
+                      "text":  "## 对角矩阵\n**Def 5.48**\n- 对角线外为0\n- 特征值在对角线上"
+                  },
+                  {
+                      "id":  "nd011",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  -80,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "5",
+                      "text":  "## 可对角化\n**Def 5.50**\n- 关于某基有对角矩阵\n- 最理想的矩阵表示"
+                  },
+                  {
+                      "id":  "nd012",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  140,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "3",
+                      "text":  "## 特征空间\n**Def 5.52**\n- $E(\\lambda, T)$\n- $\\operatorname{null}(T - \\lambda I)$\n- 特征向量加零向量"
+                  },
+                  {
+                      "id":  "nd013",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  360,
+                      "width":  260,
+                      "height":  120,
+                      "color":  "6",
+                      "text":  "## 特征空间直和\n**Thm 5.54**\n- 互异特征值\n- 直和\n- 维数之和 $\\leq \\dim V$"
+                  },
+                  {
+                      "id":  "nd020",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -300,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "1",
+                      "text":  "## 四条等价条件\n**Thm 5.55**\n- 特征向量基\n- 直和分解\n- 维数等式"
+                  },
+                  {
+                      "id":  "nd021",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -80,
+                      "width":  260,
+                      "height":  120,
+                      "color":  "2",
+                      "text":  "## 充分条件\n**Thm 5.58**\n- $\\dim V$ 个互异特征值\n- 直接可对角化"
+                  },
+                  {
+                      "id":  "nd022",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  120,
+                      "width":  280,
+                      "height":  140,
+                      "color":  "1",
+                      "text":  "## 最小多项式无重根\n**Thm 5.62**\n- 充要条件\n- range 和 null 直和\n- 归纳法证明"
+                  },
+                  {
+                      "id":  "nd023",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  340,
+                      "width":  260,
+                      "height":  120,
+                      "color":  "5",
+                      "text":  "## 限制不变子空间\n**Thm 5.65**\n- $T|_U$ 可对角化\n- 最小多项式整除"
+                  },
+                  {
+                      "id":  "nd030",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  -300,
+                      "width":  280,
+                      "height":  140,
+                      "color":  "3",
+                      "text":  "## 格什戈林圆盘\n**Def 5.66 / Thm 5.67**\n- 特征值在圆盘中\n- 对角占优矩阵可逆"
+                  },
+                  {
+                      "id":  "nd031",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  -80,
+                      "width":  240,
+                      "height":  100,
+                      "color":  "6",
+                      "text":  "## 计算 $T$ 的幂\n**Ex 5.59**\n- 对角化后简单\n- $T^{100}$ 的例子"
+                  },
+                  {
+                      "id":  "nd032",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  100,
+                      "width":  240,
+                      "height":  100,
+                      "color":  "2",
+                      "text":  "## 斐波那契数列\n**习题21**\n- 对角化经典应用\n- Binet 公式"
+                  },
+                  {
+                      "id":  "nd040",
+                      "type":  "file",
+                      "x":  400,
+                      "y":  280,
+                      "width":  260,
+                      "height":  60,
+                      "color":  "5",
+                      "file": "线性代数/notes/5D 可对角化算子.md"
+                  },
+                  {
+                      "id":  "nd041",
+                      "type":  "link",
+                      "x":  400,
+                      "y":  420,
+                      "width":  220,
+                      "height":  60,
+                      "color":  "4",
+                      "url":  "obsidian://open?vault=Obsidian-math\u0026file=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%2Fnotes%2F5E%20%E5%8F%AF%E4%BA%A4%E6%8D%A2%E7%AE%97%E5%AD%90",
+                      "title":  "5E 可交换算子"
+                  }
+              ],
+    "edges":  [
+                  {
+                      "id":  "e001",
+                      "fromNode":  "nd010",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd011",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e002",
+                      "fromNode":  "nd011",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd012",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e003",
+                      "fromNode":  "nd012",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd013",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e004",
+                      "fromNode":  "nd013",
+                      "fromSide":  "right",
+                      "toNode":  "nd020",
+                      "toSide":  "left",
+                      "label":  "等价"
+                  },
+                  {
+                      "id":  "e005",
+                      "fromNode":  "nd020",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd021",
+                      "toSide":  "top",
+                      "label":  "充分"
+                  },
+                  {
+                      "id":  "e006",
+                      "fromNode":  "nd020",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd022",
+                      "toSide":  "top",
+                      "label":  "充要"
+                  },
+                  {
+                      "id":  "e007",
+                      "fromNode":  "nd022",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd023",
+                      "toSide":  "top",
+                      "label":  "推论"
+                  },
+                  {
+                      "id":  "e008",
+                      "fromNode":  "nd010",
+                      "fromSide":  "right",
+                      "toNode":  "nd030",
+                      "toSide":  "left",
+                      "label":  "定位"
+                  },
+                  {
+                      "id":  "e009",
+                      "fromNode":  "nd030",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd031",
+                      "toSide":  "top",
+                      "label":  "应用"
+                  },
+                  {
+                      "id":  "e010",
+                      "fromNode":  "nd031",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd032",
+                      "toSide":  "top",
+                      "label":  "经典"
+                  },
+                  {
+                      "id":  "e011",
+                      "fromNode":  "nd032",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd040",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e012",
+                      "fromNode":  "nd040",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd041",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e013",
+                      "fromNode":  "nd023",
+                      "fromSide":  "right",
+                      "toNode":  "nd040",
+                      "toSide":  "left"
+                  }
+              ]
+}
