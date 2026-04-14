@@ -1,3 +1,11 @@
+---
+title: Wiki Log
+created: 2026-04-14
+updated: 2026-04-14
+type: meta
+tags: [meta]
+---
+
 # Wiki Log
 
 > 按时间顺序记录所有 wiki 操作。Append-only。

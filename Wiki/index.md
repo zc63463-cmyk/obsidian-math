@@ -1,3 +1,11 @@
+---
+title: Wiki Index
+created: 2026-04-14
+updated: 2026-04-14
+type: meta
+tags: [meta]
+---
+
 # Wiki Index
 
 > 内容目录。每页按类型分类，附一行摘要。

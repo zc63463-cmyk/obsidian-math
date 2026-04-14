@@ -2,3 +2,5 @@
 workspace.json
 *.icloud
 .DS_Store
+quartz/public/
+quartz/node_modules/
