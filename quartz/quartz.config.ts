@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "zh-CN",
     baseUrl: "obsidian-math.pages.dev",
-    ignorePatterns: ["private", "templates", ".obsidian", "_archive", "quartz"],
+    ignorePatterns: ["private", "templates", ".obsidian", "_archive", "quartz", "node_modules", ".git"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
