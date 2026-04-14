@@ -1,0 +1,212 @@
+{
+    "nodes":  [
+                  {
+                      "id":  "grp001",
+                      "type":  "group",
+                      "x":  -500,
+                      "y":  -350,
+                      "width":  1600,
+                      "height":  850,
+                      "label":  "5C 上三角矩阵 — 知识图谱",
+                      "color":  "4"
+                  },
+                  {
+                      "id":  "nd010",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  -250,
+                      "width":  260,
+                      "height":  160,
+                      "color":  "2",
+                      "text":  "算子的矩阵\nDef 5.35\n• M of T 关于基的定义\n• 第k列由Tvk坐标构成\n• 方阵"
+                  },
+                  {
+                      "id":  "nd011",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  0,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "5",
+                      "text":  "上三角矩阵\nDef 5.38\n• 对角线以下为0\n• 矩阵的简化表示\n• 约一半元素为0"
+                  },
+                  {
+                      "id":  "nd012",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  230,
+                      "width":  280,
+                      "height":  140,
+                      "color":  "3",
+                      "text":  "等价条件\nThm 5.39\n• M of T 上三角\n• span of v1..vk 不变\n• Tvk 属于 span of v1..vk"
+                  },
+                  {
+                      "id":  "nd020",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -250,
+                      "width":  300,
+                      "height":  120,
+                      "color":  "1",
+                      "text":  "乘积等式\nThm 5.40\n• T-lambda1 I ... T-lambdan I = 0\n• 逐个基向量验证"
+                  },
+                  {
+                      "id":  "nd021",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -50,
+                      "width":  280,
+                      "height":  140,
+                      "color":  "1",
+                      "text":  "特征值等于对角线\nThm 5.41\n• 对角线元素即特征值\n• 无其他特征值\n• 含重数"
+                  },
+                  {
+                      "id":  "nd022",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  180,
+                      "width":  240,
+                      "height":  100,
+                      "color":  "6",
+                      "text":  "取决于F的选择\nEx 5.43\n• R上可能不存在\n• C上总存在"
+                  },
+                  {
+                      "id":  "nd030",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  -250,
+                      "width":  280,
+                      "height":  140,
+                      "color":  "1",
+                      "text":  "充要条件\nThm 5.44\n• 最小多项式\n• 可分解为一次因式之积\n• 归纳法证明"
+                  },
+                  {
+                      "id":  "nd031",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  -50,
+                      "width":  280,
+                      "height":  120,
+                      "color":  "1",
+                      "text":  "C上总存在\nThm 5.47\n• Schur分解的抽象形式\n• FTA的直接推论"
+                  },
+                  {
+                      "id":  "nd032",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  160,
+                      "width":  240,
+                      "height":  120,
+                      "color":  "5",
+                      "text":  "前置知识\n• 5A 不变子空间\n• 5B 最小多项式\n• 第4章 多项式"
+                  },
+                  {
+                      "id":  "nd040",
+                      "type":  "file",
+                      "x":  400,
+                      "y":  350,
+                      "width":  260,
+                      "height":  60,
+                      "color":  "5",
+                      "file": "线性代数/notes/5C 上三角矩阵.md"
+                  },
+                  {
+                      "id":  "nd041",
+                      "type":  "link",
+                      "x":  -400,
+                      "y":  450,
+                      "width":  240,
+                      "height":  60,
+                      "color":  "4",
+                      "url":  "obsidian://open?vault=Obsidian-math&file=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%2Fnotes%2F5D%20%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96%E7%AE%97%E5%AD%90"
+                  }
+              ],
+    "edges":  [
+                  {
+                      "id":  "e001",
+                      "fromNode":  "nd010",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd011",
+                      "toSide":  "top",
+                      "label":  "定义"
+                  },
+                  {
+                      "id":  "e002",
+                      "fromNode":  "nd011",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd012",
+                      "toSide":  "top",
+                      "label":  "等价"
+                  },
+                  {
+                      "id":  "e003",
+                      "fromNode":  "nd012",
+                      "fromSide":  "right",
+                      "toNode":  "nd020",
+                      "toSide":  "left",
+                      "label":  "推导"
+                  },
+                  {
+                      "id":  "e004",
+                      "fromNode":  "nd020",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd021",
+                      "toSide":  "top",
+                      "label":  "应用"
+                  },
+                  {
+                      "id":  "e005",
+                      "fromNode":  "nd021",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd022",
+                      "toSide":  "top",
+                      "label":  "反例"
+                  },
+                  {
+                      "id":  "e006",
+                      "fromNode":  "nd021",
+                      "fromSide":  "right",
+                      "toNode":  "nd030",
+                      "toSide":  "left",
+                      "label":  "充要条件"
+                  },
+                  {
+                      "id":  "e007",
+                      "fromNode":  "nd030",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd031",
+                      "toSide":  "top",
+                      "label":  "C上成立"
+                  },
+                  {
+                      "id":  "e008",
+                      "fromNode":  "nd031",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd032",
+                      "toSide":  "top",
+                      "label":  "依赖"
+                  },
+                  {
+                      "id":  "e009",
+                      "fromNode":  "nd032",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd040",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e010",
+                      "fromNode":  "nd012",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd041",
+                      "toSide":  "top",
+                      "label":  "下一节"
+                  },
+                  {
+                      "id":  "e011",
+                      "fromNode":  "nd011",
+                      "fromSide":  "right",
+                      "toNode":  "nd022",
+                      "toSide":  "left"
+                  }
+              ]
+}

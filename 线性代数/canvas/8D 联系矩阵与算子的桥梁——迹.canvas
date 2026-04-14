@@ -1,0 +1,361 @@
+{
+    "nodes":  [
+                  {
+                      "id":  "8d00000000000001",
+                      "type":  "group",
+                      "x":  -860,
+                      "y":  -360,
+                      "width":  1720,
+                      "height":  1400,
+                      "label":  "8D 联系矩阵与算子的桥梁——迹 — 知识图谱",
+                      "color":  "4"
+                  },
+                  {
+                      "id":  "8d00000000000010",
+                      "type":  "group",
+                      "x":  -820,
+                      "y":  -320,
+                      "width":  340,
+                      "height":  400,
+                      "label":  "前置知识",
+                      "color":  "4"
+                  },
+                  {
+                      "id":  "8d00000000000011",
+                      "type":  "text",
+                      "x":  -800,
+                      "y":  -280,
+                      "width":  300,
+                      "height":  140,
+                      "color":  "4",
+                      "text":  "# 6B 规范正交基\n\n[[6B 规范正交基]]\n\n规范正交基的定义与性质\nGram-Schmidt正交化"
+                  },
+                  {
+                      "id":  "8d00000000000012",
+                      "type":  "text",
+                      "x":  -800,
+                      "y":  -100,
+                      "width":  300,
+                      "height":  140,
+                      "color":  "4",
+                      "text":  "# 8B 广义特征空间分解\n\n[[8B 广义特征空间分解]]\n\n广义特征空间分解定理(8.22)\n特征多项式与重数"
+                  },
+                  {
+                      "id":  "8d00000000000020",
+                      "type":  "group",
+                      "x":  -460,
+                      "y":  -320,
+                      "width":  380,
+                      "height":  400,
+                      "label":  "矩阵的迹",
+                      "color":  "1"
+                  },
+                  {
+                      "id":  "8d00000000000021",
+                      "type":  "text",
+                      "x":  -440,
+                      "y":  -280,
+                      "width":  340,
+                      "height":  120,
+                      "color":  "1",
+                      "text":  "# 定义8.47 矩阵的迹\n\ntrace A = A_{1,1} + A_{2,2} + ... + A_{n,n}\n\n方阵对角元素之和"
+                  },
+                  {
+                      "id":  "8d00000000000022",
+                      "type":  "text",
+                      "x":  -440,
+                      "y":  -120,
+                      "width":  340,
+                      "height":  120,
+                      "color":  "1",
+                      "text":  "# 例8.48\n\n具体矩阵的迹计算\n演示对角元素求和的过程"
+                  },
+                  {
+                      "id":  "8d00000000000023",
+                      "type":  "text",
+                      "x":  -440,
+                      "y":  40,
+                      "width":  340,
+                      "height":  120,
+                      "color":  "1",
+                      "text":  "# 定理8.49 迹与相似\n\n相似矩阵有相同的迹\ntrace(A) = trace(S^{-1}AS)\n\n迹是相似不变量"
+                  },
+                  {
+                      "id":  "8d00000000000030",
+                      "type":  "group",
+                      "x":  -60,
+                      "y":  -320,
+                      "width":  420,
+                      "height":  800,
+                      "label":  "算子的迹（核心）",
+                      "color":  "6"
+                  },
+                  {
+                      "id":  "8d00000000000031",
+                      "type":  "text",
+                      "x":  -40,
+                      "y":  -280,
+                      "width":  380,
+                      "height":  120,
+                      "color":  "6",
+                      "text":  "# 定理8.50 迹不依赖于基\n\n算子T关于不同基的矩阵\n具有相同的迹\n\n迹是算子的内蕴性质"
+                  },
+                  {
+                      "id":  "8d00000000000032",
+                      "type":  "text",
+                      "x":  -40,
+                      "y":  -120,
+                      "width":  380,
+                      "height":  140,
+                      "color":  "6",
+                      "text":  "# 定义8.51 算子的迹\n\ntrace T = T关于某个（任意）基的矩阵的迹\n\n由定理8.50保证良定义\n不依赖于基的选择"
+                  },
+                  {
+                      "id":  "8d00000000000033",
+                      "type":  "text",
+                      "x":  -40,
+                      "y":  60,
+                      "width":  380,
+                      "height":  140,
+                      "color":  "6",
+                      "text":  "# 定理8.52 迹等于特征值之和\n\ntrace T = λ₁ + λ₂ + ... + λ_n\n\n（按重数计）\n\n连接算子与特征值的关键公式"
+                  },
+                  {
+                      "id":  "8d00000000000034",
+                      "type":  "text",
+                      "x":  -40,
+                      "y":  240,
+                      "width":  380,
+                      "height":  140,
+                      "color":  "6",
+                      "text":  "# 例8.53\n\n具体算例\n计算算子的迹\n验证 trace T = 特征值之和"
+                  },
+                  {
+                      "id":  "8d00000000000040",
+                      "type":  "group",
+                      "x":  400,
+                      "y":  -320,
+                      "width":  420,
+                      "height":  800,
+                      "label":  "迹的性质",
+                      "color":  "2"
+                  },
+                  {
+                      "id":  "8d00000000000041",
+                      "type":  "text",
+                      "x":  420,
+                      "y":  -280,
+                      "width":  380,
+                      "height":  120,
+                      "color":  "2",
+                      "text":  "# 定理8.54 迹的线性性\n\ntrace(S + T) = trace S + trace T\ntrace(λT) = λ trace T\n\n迹是线性映射 L(V) → C"
+                  },
+                  {
+                      "id":  "8d00000000000042",
+                      "type":  "text",
+                      "x":  420,
+                      "y":  -120,
+                      "width":  380,
+                      "height":  120,
+                      "color":  "2",
+                      "text":  "# 定理8.55 trace(ST) = trace(TS)\n\n乘积的迹与顺序无关\ntrace(ST) = trace(TS)\n\n即使 ST ≠ TS"
+                  },
+                  {
+                      "id":  "8d00000000000043",
+                      "type":  "text",
+                      "x":  420,
+                      "y":  60,
+                      "width":  380,
+                      "height":  120,
+                      "color":  "2",
+                      "text":  "# 定理8.56 迹与算子复合\n\ntrace(ST) = trace(TS)\n推广到多个算子的循环排列"
+                  },
+                  {
+                      "id":  "8d00000000000044",
+                      "type":  "text",
+                      "x":  420,
+                      "y":  240,
+                      "width":  380,
+                      "height":  120,
+                      "color":  "2",
+                      "text":  "# 定理8.57 迹与幂\n\ntrace(T^k) = Σ λ_i^k\n\n（按重数计）\n特征值的k次幂之和"
+                  },
+                  {
+                      "id":  "8d00000000000050",
+                      "type":  "group",
+                      "x":  -820,
+                      "y":  100,
+                      "width":  1720,
+                      "height":  240,
+                      "label":  "补充理解",
+                      "color":  "3"
+                  },
+                  {
+                      "id":  "8d00000000000051",
+                      "type":  "text",
+                      "x":  -800,
+                      "y":  140,
+                      "width":  500,
+                      "height":  160,
+                      "color":  "3",
+                      "text":  "# Frobenius内积\n\n\u003cA, B\u003e_F = trace(A^* B)\n\n矩阵空间上的内积\n与Frobenius范数的关系：||A||_F^2 = trace(A^* A)"
+                  },
+                  {
+                      "id":  "8d00000000000052",
+                      "type":  "text",
+                      "x":  -260,
+                      "y":  140,
+                      "width":  500,
+                      "height":  160,
+                      "color":  "3",
+                      "text":  "# 迹的直觉\n\n迹 = 空间在各方向上的\n\"平均伸缩率\"之和\n\ntrace = 特征值之和 = 对角线之和\n三者等价，各有几何意义"
+                  },
+                  {
+                      "id":  "8d00000000000060",
+                      "type":  "group",
+                      "x":  -820,
+                      "y":  380,
+                      "width":  1720,
+                      "height":  240,
+                      "label":  "关联笔记",
+                      "color":  "3"
+                  },
+                  {
+                      "id":  "8d00000000000061",
+                      "type":  "text",
+                      "x":  -800,
+                      "y":  420,
+                      "width":  500,
+                      "height":  160,
+                      "color":  "3",
+                      "text":  "# 7E 奇异值分解与推论\n\n[[7E 奇异值分解与推论]]\n\nFrobenius范数与奇异值的关系\n||A||_F^2 = σ₁^2 + σ₂^2 + ... + σ_n^2"
+                  },
+                  {
+                      "id":  "8d00000000000070",
+                      "type":  "file",
+                      "x":  400,
+                      "y":  420,
+                      "width":  400,
+                      "height":  60,
+                      "file": "线性代数/notes/8D 联系矩阵与算子的桥梁——迹.md"
+                  }
+              ],
+    "edges":  [
+                  {
+                      "id":  "8d0000000000e001",
+                      "fromNode":  "8d00000000000011",
+                      "fromSide":  "right",
+                      "toNode":  "8d00000000000021",
+                      "toSide":  "left",
+                      "label":  "规范正交基 → 矩阵的迹",
+                      "color":  "4"
+                  },
+                  {
+                      "id":  "8d0000000000e002",
+                      "fromNode":  "8d00000000000021",
+                      "fromSide":  "bottom",
+                      "toNode":  "8d00000000000022",
+                      "toSide":  "top",
+                      "label":  "定义 → 实例"
+                  },
+                  {
+                      "id":  "8d0000000000e003",
+                      "fromNode":  "8d00000000000022",
+                      "fromSide":  "bottom",
+                      "toNode":  "8d00000000000023",
+                      "toSide":  "top",
+                      "label":  "实例 → 性质定理"
+                  },
+                  {
+                      "id":  "8d0000000000e004",
+                      "fromNode":  "8d00000000000023",
+                      "fromSide":  "right",
+                      "toNode":  "8d00000000000031",
+                      "toSide":  "left",
+                      "label":  "迹与相似 → 迹不依赖基"
+                  },
+                  {
+                      "id":  "8d0000000000e005",
+                      "fromNode":  "8d00000000000031",
+                      "fromSide":  "bottom",
+                      "toNode":  "8d00000000000032",
+                      "toSide":  "top",
+                      "label":  "良定义 → 算子迹定义"
+                  },
+                  {
+                      "id":  "8d0000000000e006",
+                      "fromNode":  "8d00000000000032",
+                      "fromSide":  "bottom",
+                      "toNode":  "8d00000000000033",
+                      "toSide":  "top",
+                      "label":  "定义 → 特征值之和"
+                  },
+                  {
+                      "id":  "8d0000000000e007",
+                      "fromNode":  "8d00000000000033",
+                      "fromSide":  "bottom",
+                      "toNode":  "8d00000000000034",
+                      "toSide":  "top",
+                      "label":  "定理 → 实例"
+                  },
+                  {
+                      "id":  "8d0000000000e008",
+                      "fromNode":  "8d00000000000033",
+                      "fromSide":  "right",
+                      "toNode":  "8d00000000000041",
+                      "toSide":  "left",
+                      "label":  "迹的性质 → 线性性"
+                  },
+                  {
+                      "id":  "8d0000000000e009",
+                      "fromNode":  "8d00000000000041",
+                      "fromSide":  "bottom",
+                      "toNode":  "8d00000000000042",
+                      "toSide":  "top",
+                      "label":  "线性性 → 乘积迹"
+                  },
+                  {
+                      "id":  "8d0000000000e010",
+                      "fromNode":  "8d00000000000042",
+                      "fromSide":  "bottom",
+                      "toNode":  "8d00000000000043",
+                      "toSide":  "top",
+                      "label":  "乘积迹 → 算子复合"
+                  },
+                  {
+                      "id":  "8d0000000000e011",
+                      "fromNode":  "8d00000000000043",
+                      "fromSide":  "bottom",
+                      "toNode":  "8d00000000000044",
+                      "toSide":  "top",
+                      "label":  "算子复合 → 迹与幂"
+                  },
+                  {
+                      "id":  "8d0000000000e012",
+                      "fromNode":  "8d00000000000012",
+                      "fromSide":  "right",
+                      "toNode":  "8d00000000000033",
+                      "toSide":  "left",
+                      "label":  "广义特征空间 → 特征值之和",
+                      "color":  "4"
+                  },
+                  {
+                      "id":  "8d0000000000e013",
+                      "fromNode":  "8d00000000000051",
+                      "fromSide":  "right",
+                      "toNode":  "8d00000000000061",
+                      "toSide":  "left",
+                      "label":  "Frobenius内积 → SVD",
+                      "color":  "3"
+                  },
+                  {
+                      "id":  "8d0000000000e014",
+                      "fromNode":  "8d00000000000061",
+                      "fromSide":  "top",
+                      "toNode":  "8d00000000000051",
+                      "toSide":  "bottom",
+                      "label":  "SVD → Frobenius范数",
+                      "color":  "3"
+                  }
+              ]
+}

@@ -1,0 +1,248 @@
+{
+    "nodes":  [
+                  {
+                      "id":  "grp001",
+                      "type":  "group",
+                      "x":  -500,
+                      "y":  -400,
+                      "width":  1700,
+                      "height":  950,
+                      "label":  "5A 不变子空间 — 知识图谱",
+                      "color":  "4"
+                  },
+                  {
+                      "id":  "nd010",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  -300,
+                      "width":  260,
+                      "height":  160,
+                      "color":  "2",
+                      "text":  "算子\nDef 5.1\n• L(V) = L(V,V)\n• 从V到V的线性映射"
+                  },
+                  {
+                      "id":  "nd011",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  -50,
+                      "width":  280,
+                      "height":  160,
+                      "color":  "5",
+                      "text":  "不变子空间\nDef 5.2\n• U在T下不变\n• Tu∈U 对所有u∈U\n• 四个平凡不变子空间"
+                  },
+                  {
+                      "id":  "nd012",
+                      "type":  "text",
+                      "x":  -400,
+                      "y":  200,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "3",
+                      "text":  "一维不变子空间\nspan(v)\n• Tv∈span(v)\n• 等价于Tv=λv"
+                  },
+                  {
+                      "id":  "nd020",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -300,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "1",
+                      "text":  "特征值\nDef 5.5\n• 存在v≠0使Tv=λv\n• λ∈F"
+                  },
+                  {
+                      "id":  "nd021",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  -80,
+                      "width":  260,
+                      "height":  140,
+                      "color":  "1",
+                      "text":  "特征向量\nDef 5.8\n• v∈null(T−λI)\n• 旋转算子R² vs C²"
+                  },
+                  {
+                      "id":  "nd022",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  140,
+                      "width":  280,
+                      "height":  120,
+                      "color":  "6",
+                      "text":  "等价条件\nThm 5.7\n• T−λI非单射\n• T−λI不可逆"
+                  },
+                  {
+                      "id":  "nd023",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  340,
+                      "width":  260,
+                      "height":  120,
+                      "color":  "2",
+                      "text":  "线性无关性\nThm 5.11\n• 不同特征值的特征向量\n• 线性无关"
+                  },
+                  {
+                      "id":  "nd024",
+                      "type":  "text",
+                      "x":  0,
+                      "y":  530,
+                      "width":  240,
+                      "height":  100,
+                      "color":  "5",
+                      "text":  "特征值上界\nThm 5.12\n• 最多dim V个\n• 互异特征值"
+                  },
+                  {
+                      "id":  "nd030",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  -300,
+                      "width":  240,
+                      "height":  140,
+                      "color":  "3",
+                      "text":  "算子的幂\nT^m\n• T⁰=I, Tᵐ=T···T\n• Tᵐ⁺ⁿ=TᵐTⁿ"
+                  },
+                  {
+                      "id":  "nd031",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  -80,
+                      "width":  300,
+                      "height":  140,
+                      "color":  "1",
+                      "text":  "多项式作用于算子\np(T)\n• p(T)q(T) = q(T)p(T)\n• 乘积性质 Thm 5.17"
+                  },
+                  {
+                      "id":  "nd032",
+                      "type":  "text",
+                      "x":  400,
+                      "y":  140,
+                      "width":  280,
+                      "height":  120,
+                      "color":  "6",
+                      "text":  "p(T) 的不变性\nThm 5.18\n• null p(T) 在T下不变\n• range p(T) 在T下不变"
+                  },
+                  {
+                      "id":  "nd040",
+                      "type":  "file",
+                      "x":  400,
+                      "y":  340,
+                      "width":  260,
+                      "height":  60,
+                      "color":  "5",
+                      "file": "线性代数/notes/5A 不变子空间、特征值和特征向量.md"
+                  },
+                  {
+                      "id":  "nd041",
+                      "type":  "link",
+                      "x":  400,
+                      "y":  470,
+                      "width":  220,
+                      "height":  60,
+                      "color":  "4",
+                      "url":  "obsidian://open?vault=Obsidian-math\u0026file=5C%20%E4%B8%8A%E4%B8%89%E8%A7%92%E7%9F%A9%E9%98%B5"
+                  }
+              ],
+    "edges":  [
+                  {
+                      "id":  "e001",
+                      "fromNode":  "nd010",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd011",
+                      "toSide":  "top",
+                      "label":  "限制"
+                  },
+                  {
+                      "id":  "e002",
+                      "fromNode":  "nd011",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd012",
+                      "toSide":  "top",
+                      "label":  "一维"
+                  },
+                  {
+                      "id":  "e003",
+                      "fromNode":  "nd012",
+                      "fromSide":  "right",
+                      "toNode":  "nd020",
+                      "toSide":  "left",
+                      "label":  "产生"
+                  },
+                  {
+                      "id":  "e004",
+                      "fromNode":  "nd020",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd021",
+                      "toSide":  "top",
+                      "label":  "对应"
+                  },
+                  {
+                      "id":  "e005",
+                      "fromNode":  "nd021",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd022",
+                      "toSide":  "top",
+                      "label":  "等价"
+                  },
+                  {
+                      "id":  "e006",
+                      "fromNode":  "nd022",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd023",
+                      "toSide":  "top",
+                      "label":  "推论"
+                  },
+                  {
+                      "id":  "e007",
+                      "fromNode":  "nd023",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd024",
+                      "toSide":  "top",
+                      "label":  "上界"
+                  },
+                  {
+                      "id":  "e008",
+                      "fromNode":  "nd010",
+                      "fromSide":  "right",
+                      "toNode":  "nd030",
+                      "toSide":  "left",
+                      "label":  "幂"
+                  },
+                  {
+                      "id":  "e009",
+                      "fromNode":  "nd030",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd031",
+                      "toSide":  "top",
+                      "label":  "多项式"
+                  },
+                  {
+                      "id":  "e010",
+                      "fromNode":  "nd031",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd032",
+                      "toSide":  "top",
+                      "label":  "应用"
+                  },
+                  {
+                      "id":  "e011",
+                      "fromNode":  "nd032",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd040",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e012",
+                      "fromNode":  "nd040",
+                      "fromSide":  "bottom",
+                      "toNode":  "nd041",
+                      "toSide":  "top"
+                  },
+                  {
+                      "id":  "e013",
+                      "fromNode":  "nd012",
+                      "fromSide":  "right",
+                      "toNode":  "nd032",
+                      "toSide":  "left",
+                      "label":  "pT不变"
+                  }
+              ]
+}
