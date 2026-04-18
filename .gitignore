@@ -4,3 +4,6 @@ workspace.json
 .DS_Store
 quartz/public/
 quartz/node_modules/
+quartz/public/
+quartz/node_modules/
+public/
