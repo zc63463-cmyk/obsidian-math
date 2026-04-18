@@ -1,5 +1,5 @@
 ---
-title: 数学知识库
+title: 数学笔记 Wiki
 created: 2026-04-14
 updated: 2026-04-18
 ---
@@ -14,7 +14,7 @@ updated: 2026-04-18
 
 基于《线性代数应该这样学》（Linear Algebra Done Right, 4th Edition, Sheldon Axler）
 
-- [[Wiki/index|Wiki 层]] — 核心概念与定理汇总
+- [[线性代数/index|Wiki 层]] — 核心概念与定理汇总
 - [[线性代数/notes/第1章 向量空间 — 章节汇总|第1章 向量空间]]
 - [[线性代数/notes/第2章 有限维向量空间 — 章节汇总|第2章 有限维向量空间]]
 - [[线性代数/notes/第3章 线性映射 — 章节汇总|第3章 线性映射]]

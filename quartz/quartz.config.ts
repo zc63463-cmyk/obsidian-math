@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "线性代数 Wiki",
-    pageTitleSuffix: "— LADR",
+    pageTitle: "数学笔记 Wiki",
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
