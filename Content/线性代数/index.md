@@ -91,10 +91,9 @@ related:
 ## 📌 知识库结构说明
 
 - `notes/` — 按章节组织的学习笔记，含章节汇总页
-- `Wiki/` — 待建立：核心概念页与定理页
-
-> [!note] Wiki 层建设
-> 当前笔记已规范化。下一步将建立 Wiki 层（concepts/、theorems/），提取跨章节核心概念（谱定理、若当标准型、行列式、奇异值分解等）作为独立页面。
+- `concepts/` — 14 个核心概念页（跨章节主题提炼）
+- `theorems/` — 4 个重要定理页
+- Wiki 总目录：[[Wiki/index|Wiki Index]]
 
 ## 备注
 

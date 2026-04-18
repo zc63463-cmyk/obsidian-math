@@ -1,7 +1,7 @@
 ---
 title: Wiki Log
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-18
 type: meta
 tags: [meta]
 ---
@@ -57,3 +57,13 @@ tags: [meta]
 - All 4 theorem pages: rank-nullity-theorem, spectral-theorem, svd-theorem, jordan-form-theorem
 - Content sourced from vault chapter summaries (9 files, ~200KB total)
 - Average word count per page: ~250-350 words (up from ~130-200)
+
+## [2026-04-18] restructure | Wiki 多学科架构升级
+- 将 Wiki Index 从线性代数专属索引升级为多学科总目录
+- 线性代数 Wiki 文件（14 concepts + 4 theorems）迁至 Content/线性代数/concepts/ 和 Content/线性代数/theorems/
+- 概率论 Wiki 文件（10 concepts + 3 theorems）已存在于 Content/概率论与统计/concepts/ 和 Content/概率论与统计/theorems/
+- Wiki Index 现索引 31 个页面（线性代数 18 + 概率论 13）
+- SCHEMA.md 更新为多学科架构规范（domain、tag taxonomy、directory structure）
+- 两个学科 index.md 的 Wiki 状态从"待建立"更新为已完成
+- 首页增加 Wiki Index 总入口链接
+- Wiki/ 目录定位明确：仅存放元数据文件（index.md、SCHEMA.md、log.md），Wiki 页面归属于各学科目录
