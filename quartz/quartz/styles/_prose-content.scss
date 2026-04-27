@@ -384,6 +384,6 @@ article mark {
   color: inherit;
 }
 
-:root[saved-theme="dark"] article mark {
+::root[saved-theme="dark"] article mark {
   background: linear-gradient(120deg, rgba(179, 170, 2, 0.35) 0%, rgba(179, 170, 2, 0.15) 100%);
 }

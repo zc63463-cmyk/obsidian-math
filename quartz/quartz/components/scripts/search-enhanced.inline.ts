@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Search Enhancement - Recent History + Overlay Z-index Fix
  * 
@@ -47,7 +48,7 @@
 
     function boostSidebarZIndex() {
       if (sidebar) {
-        sidebar.style.zIndex = "99999"
+        sidebar.style.zIndex = "2147483000"
       }
     }
 

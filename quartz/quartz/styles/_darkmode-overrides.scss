@@ -4,7 +4,7 @@
    暗色模式专属覆盖
    处理 CSS 变量无法覆盖的复杂场景
    ============================================ */
-:root[saved-theme="dark"] {
+::root[saved-theme="dark"] {
   /* 概念页 topic 图标背景 - 增强可见度 */
   .concept-hub .cat-foundations .cat-icon { background: rgba(59,130,246,0.2); color: #60a5fa; }
   .concept-hub .cat-sorting .cat-icon { background: rgba(139,92,246,0.2); color: #a78bfa; }

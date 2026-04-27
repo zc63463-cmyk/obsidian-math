@@ -3,7 +3,7 @@ import readingProgressScript from "./scripts/reading-progress.inline"
 // @ts-ignore
 import backToTopScript from "./scripts/back-to-top.inline"
 import styles from "./styles/p1-interactions.scss"
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor } from "./types"
 
 const P1Interactions: QuartzComponent = ({}) => {
   return (

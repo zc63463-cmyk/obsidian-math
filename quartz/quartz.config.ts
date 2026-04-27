@@ -17,6 +17,7 @@ const config: QuartzConfig = {
     baseUrl: "obsidian-math.pages.dev",
     ignorePatterns: ["private", "templates", ".obsidian", "_archive", "_templates", "00-Raw素材"],
     defaultDateType: "modified",
+    analytics: null,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
